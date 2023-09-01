@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JPG to PDF Converter</title>
+    <link rel="stylesheet" href="/templates/style.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="title">JPG to PDF Converter</h1>
+    <form action="/convert" method="POST" enctype="multipart/form-data">
+        <div class="file-input">
+            <input type="file" id="file-input" name="file" accept="image/jpeg" required>
+            <label for="file-input">Выбрать файл</label>
+        </div>
+        <button class="convert-button">Convert</button>
+    </form>
+</div>
+</body>
+</html>
